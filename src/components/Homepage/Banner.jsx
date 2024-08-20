@@ -4,7 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="container mx-auto">
-      <div className="carousel w-full">
+      <div className="carousel w-full ">
         {banner.map((banner, index) => (
           <div
             style={{
@@ -16,7 +16,19 @@ const Banner = () => {
             id={`slide${index + 1}`}
             className="carousel-item relative w-full h-[90vh] bg-top bg-cover bg-no-repeat"
           >
+            <div className="h-full w-full flex items-center pl-36 ">
+              <div className="space-y-4">
+                <h1 className="text-6xl text-white font-semibold">
+                  {banner.title}
+                </h1>
+                <h1 className="text-white text-2xl">{banner.description}</h1>
+                <button className="btn  text-white btn-primary  mr-4">Discover More</button>
+                <button className="btn btn-outline   text-white  ">Latest Project</button>
+              </div>
+            </div>
+
             <Image alt="banner picture" src="" className="w-full" />
+
             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
               <a href={banner.prev} className="btn btn-circle">
                 ❮
