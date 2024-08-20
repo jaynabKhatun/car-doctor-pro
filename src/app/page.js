@@ -1,8 +1,9 @@
-import Homepage from "../components/Homepage/Homepage/page.jsx"
+import Homepage from "@/components/Homepage/Homepage";
+
 export default function Home() {
   return (
-    <main>
-      <Homepage />
+    <main className="h-screen">
+      <Homepage></Homepage>
     </main>
   );
 }
