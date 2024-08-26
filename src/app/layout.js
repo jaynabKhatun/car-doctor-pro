@@ -14,9 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="carDoctorTheme">
       <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer></Footer>
+        <div className="container mx-auto">
+          <Navbar />
+          {children}
+
+          <Footer></Footer>
+        </div>
       </body>
     </html>
   );

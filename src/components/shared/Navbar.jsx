@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { CiSearch } from "react-icons/ci";
-import { IoIosCart, IoIosCheckmarkCircleOutline } from "react-icons/io";
+import { IoIosCart } from "react-icons/io";
 
 const Navbar = () => {
   const navItems = [
