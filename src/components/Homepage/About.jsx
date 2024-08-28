@@ -5,7 +5,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="mt-40">
-      <div className="grid grid-cols-1 lg:grid-cols-2 ">
+      <div className="grid grid-cols-1 gap-10  lg:grid-cols-2 ">
         <div className="relative">
           <div className="">
             <Image width={550} height={550}  src={personPic} alt="person pic" />
@@ -20,13 +20,13 @@ const About = () => {
             <h3 className="text-[#FF3811] font-bold text-xl">About Us</h3>
 
             <h1 className="text-5xl font-extrabold w-96 ">We are qualified & of experience in this field</h1>
-            <h2 className="w-[600px]">
+            <h2 className="w-[600px] text-[#737373]">
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by
               injected humour, or randomised words which don't look even
               slightly believable.{" "}
             </h2>
-            <h2 className="w-[600px]">
+            <h2 className="w-[600px]  text-[#737373]">
               the majority have suffered alteration in some form, by injected
               humour, or randomised words which don't look even slightly
               believable.
