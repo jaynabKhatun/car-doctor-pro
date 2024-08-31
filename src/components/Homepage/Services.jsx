@@ -1,4 +1,4 @@
-;
+
 import ServiceCard from "../cards/ServiceCard";
 import { service } from "../../lib/Service"
 

@@ -3,7 +3,7 @@ export const service = [
       id: 1,
       serviceId: "S101",
       title: "Web Development",
-      img: "https://imgbox.com/p4SejRj2",
+      img: "https://i.ibb.co/CsdwWLS/6.jpg",
       price: 500,
       description:
         "Professional web development services to build responsive and modern websites.",
@@ -12,7 +12,7 @@ export const service = [
       id: 2,
       serviceId: "S102",
       title: "Graphic Design",
-      img: "https://imgbox.com/GHDNIBHN ",
+      img: "https://i.ibb.co/3rBXJTV/3.jpg",
       price: 300,
       description:
         "Creative graphic design solutions for logos, brochures, and digital media.",
@@ -21,7 +21,7 @@ export const service = [
       id: 3,
       serviceId: "S103",
       title: "SEO Optimization",
-      img: "https://imgbox.com/iEoLyVaT ",
+      img: "https://i.ibb.co/jwbLxVb/2.jpg",
       price: 200,
       description:
         "Improve your website's visibility and ranking on search engines with our SEO services.",
@@ -30,7 +30,7 @@ export const service = [
       id: 4,
       serviceId: "S104",
       title: "Digital Marketing",
-      img: "https://imgbox.com/7jAqVQyG ",
+      img: "https://i.ibb.co/nfMsgGw/4.jpg",
       price: 400,
       description:
         "Comprehensive digital marketing strategies to boost your online presence and engagement.",
@@ -39,7 +39,7 @@ export const service = [
       id: 5,
       serviceId: "S105",
       title: "Content Writing",
-      img: "https://imgbox.com/G8WcHAvC",
+      img: "https://i.ibb.co/xfmntnr/1.jpg",
       price: 150,
       description:
         "High-quality content writing services for blogs, websites, and social media.",
@@ -48,7 +48,7 @@ export const service = [
       id: 6,
       serviceId: "S106",
       title: "App Development",
-      img: "https://imgbox.com/YTSHnKw8 ",
+      img: "https://i.ibb.co/xfmntnr/1.jpg",
       price: 600,
       description:
         "Custom mobile app development services for iOS and Android platforms.",
