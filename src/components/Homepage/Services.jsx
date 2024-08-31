@@ -16,7 +16,7 @@ const Services = () => {
         </p>
       </div>
 
-      <div className="grid lg:grid-cols-3 grid-cols-1 mt-12 gap-8 ">
+      <div className="grid lg:grid-cols-3 grid-cols-1 md:mt-12 gap-8  ">
        {
         service.map((service) => (
           <ServiceCard key={service._id} service={service} />  // map through services and render ServiceCard component for each service   
